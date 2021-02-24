@@ -1,0 +1,69 @@
+#NewGame{
+    border-style: ridge;
+    border-radius: 10px;
+    color:darkred;
+    background-color: cadetblue;
+    position: absolute;
+    left:3%;
+    font-size:20px;
+    top:18%;
+}
+
+div{
+  border-style: solid;
+  height: 50px;
+  width: 770px;
+  position: absolute;
+  left:25%;
+  top:1%;
+  font-size: 26px;
+  text-align: right;
+  padding-top: 10px;  
+  background-color: beige;
+}
+
+
+Main{
+  border-style: solid;
+  height: 630px;
+  width: 770px;
+  position: absolute;
+  left:25%;
+  top:8%;
+  background-color: beige;
+}
+
+body{
+    background: url(background.jpeg) no-repeat center fixed;     
+    background-size: cover;
+    
+}
+
+td{ 
+    width:150px;
+    height:100px;
+    background-image:url(Q.jpg);
+    background-size: contain;
+}
+
+img{
+   width:150px;
+   height:96px;
+   
+}
+
+won{
+    position: absolute;
+    left:35%;
+    top:50%;
+    width:500px;
+    height:100px;
+    background-color:darkcyan;
+    font-size: 44px;
+    text-align: center;
+    font-family: fantasy;
+    opacity: 0.93;
+    color:white;
+    font-weight: 550;
+    display: none;  
+}
